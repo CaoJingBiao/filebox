@@ -6,7 +6,7 @@
  * @copyright Copyright (c) 2014-2016
  * @since     Version 1.10.0.2
  *
- * 设置说明  
+ * 设置说明
  * $sitetitle - 标题名称
  * $user - 用户名
  * $pass - 密码
@@ -21,7 +21,7 @@ $sitetitle = 'FileBox';
 $user = 'filebox';
 $pass = 'filebox';
 $safe_num = 0;//设置多少次后禁止登陆，为0则不限制，建议为3-5
-$mail = 'i@hezi.be';//若有恶意登录，会发邮件到这个邮箱，前提是mail()函数可用！
+$mail = 'email@qq.com';//若有恶意登录，会发邮件到这个邮箱，前提是mail()函数可用！
 $meurl = $_SERVER['PHP_SELF'];
 $os = (DIRECTORY_SEPARATOR=='\\')?"windows":'linux';
 $op = (isset($_REQUEST['op']))?htmlentities($_REQUEST['op']):'home';
